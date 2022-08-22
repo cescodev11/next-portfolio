@@ -5,11 +5,11 @@ const About = () => {
     <div className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8  ">
         <div className="col-span-2">
-          <p>About Me</p>
-          <h2>Who I am</h2>
-          <p>I am a 20 year old Web Developer</p>
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">About Me</p>
+          <h2 className="py-4">Who I am</h2>
+          <p className="py-2 text-gray-600">I am a 20 year old Web Developer</p>
 
-          <p>
+          <p className="py-2 text-gray-600">
             In 2020 I was attending Sacramento State for Business Information
             Systems. Due to Covid, I had extra time to find my true passion for
             web development. I watched many videos about the lives of software
@@ -19,7 +19,7 @@ const About = () => {
             of guidance to lead me down the right path I set out to find a
             course.
           </p>
-          <p>
+          <p className="py-2 text-gray-600">
             My journey began in the middle of 2021 when I attended DevMountain
             for a rigorous 4-month coding Bootcamp. While coding, I specialized
             in React, JavaScript, CSS, and HTML. Although there were many
@@ -29,10 +29,10 @@ const About = () => {
             projects, collaborating with my peers, testing new languages, and practicing future
             interview questions.
           </p>
-          <p>Check out my latest work</p>
+          <p className="py-2 text-gray-600 underline cursor-pointer">Check out my latest work</p>
         </div>
-        <div>
-            <img src="" alt="" />
+        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
+            <img className="rounded-xl" src="https://omedia.dev/sites/default/files/styles/blog_full/public/2021-07/eq.jpg?itok=oFWrM1Z0" alt="" />
         </div>
       </div>
     </div>
