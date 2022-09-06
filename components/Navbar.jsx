@@ -32,7 +32,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
-          src="/../public/assets/NavLogo.png"
+          src="/../public/assets/Logos/realPortLogo-removebg.png"
           alt="/"
           width="125"
           height="58"
@@ -53,7 +53,7 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="/contact">
+            <Link href="/#contact">
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
@@ -77,7 +77,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Image
-                src="/../public/assets/NavLogo.png"
+                src="/../public/assets/Logos/realPortLogo-removebg.png"
                 width="87"
                 height="85"
                 alt="/"
@@ -114,7 +114,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest text-[#4a4fdd]">
                 Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
