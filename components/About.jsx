@@ -29,7 +29,6 @@ const About = () => {
             projects, collaborating with my peers, testing new languages, and practicing future
             interview questions.
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">Check out my latest work</p>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300 ">
             <img className="rounded-xl" src="https://omedia.dev/sites/default/files/styles/blog_full/public/2021-07/eq.jpg?itok=oFWrM1Z0" alt="" />
