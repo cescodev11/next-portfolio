@@ -3,6 +3,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import createWand3D from "../public/assets/Projects/createWand3D.jpeg";
 import ExpenseTracker from "../public/assets/Projects/ExpenseTracker.jpeg"
+import teslaClonePic from "../public/assets/Projects/teslaClonePic.png"
 const Projects = () => {
   return (
     <div id="projects" className="w-full ">
@@ -15,7 +16,7 @@ const Projects = () => {
           <ProjectItem
             title="Wizard Creator"
             backgroundImg={createWand3D}
-            projectUrl="https://one-sip-b05ef.web.app/"
+            projectUrl="/wizardProd"
             
 
           />
@@ -24,6 +25,12 @@ const Projects = () => {
             title="Budget Checker"
             backgroundImg={ExpenseTracker}
             projectUrl="/expenseTracker"
+          />
+
+          <ProjectItem 
+          title= "Tesla Clone"
+          backgroundImg={teslaClonePic}
+          projectUrl="/teslaClone"
           />
 
         </div>
