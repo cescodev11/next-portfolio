@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import ExpenseTracker from "../public/assets/Projects/ExpenseTracker.jpeg";
+import d2dTodoListPic from "../public/assets/Projects/d2dtodolistpic.jpeg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const expenseTracker = () => {
+const d2dtodolist = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +13,12 @@ const expenseTracker = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={ExpenseTracker}
+          src={d2dTodoListPic}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Tesla Clone</h2>
-          <h3>React JS / CSS</h3>
+          <h2 className="py-2">D2D-List</h2>
+          <h3>TODO LIST</h3>
         </div>
       </div>
 
@@ -27,14 +27,12 @@ const expenseTracker = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app, built with JavaScript, CSS, and MongoDB, is a personal
-            project designed for expense tracking. Users can input their total
-            available funds and log each expense by amount and category. The app
-            calculates the remaining balance and displays a visual graph of all
-            expenses, offering a clear financial overview.
+            A straightforward to-do list application that enables users to add
+            tasks, update them with ease, and remove them using a simple delete
+            function. Designed for efficient and hassle-free task management.
           </p>
           <a
-            href="https://github.com/Carlosescobar2/expense-tracker"
+            href="https://github.com/cescodev11/D2D-todolist"
             target="_blank"
             rel="noreferrer"
           >
@@ -46,13 +44,13 @@ const expenseTracker = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Mongo DB
+                <RiRadioButtonFill className="pr-1" /> HTML
               </p>
             </div>
           </div>
@@ -65,4 +63,4 @@ const expenseTracker = () => {
   );
 };
 
-export default expenseTracker;
+export default d2dtodolist;

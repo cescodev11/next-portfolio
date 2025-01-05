@@ -2,8 +2,9 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import createWand3D from "../public/assets/Projects/createWand3D.jpeg";
-import ExpenseTracker from "../public/assets/Projects/ExpenseTracker.jpeg"
-import teslaClonePic from "../public/assets/Projects/teslaClonePic.png"
+import ExpenseTracker from "../public/assets/Projects/ExpenseTracker.jpeg";
+import teslaClonePic from "../public/assets/Projects/teslaClonePic.png";
+import d2dTodoListPic from "../public/assets/Projects/d2dtodolistpic.jpeg";
 const Projects = () => {
   return (
     <div id="projects" className="w-full ">
@@ -17,8 +18,6 @@ const Projects = () => {
             title="Wizard Creator"
             backgroundImg={createWand3D}
             projectUrl="/wizardProd"
-            
-
           />
 
           <ProjectItem
@@ -27,12 +26,16 @@ const Projects = () => {
             projectUrl="/expenseTracker"
           />
 
-          <ProjectItem 
-          title= "Tesla Clone"
-          backgroundImg={teslaClonePic}
-          projectUrl="/teslaClone"
+          <ProjectItem
+            title="Tesla Clone"
+            backgroundImg={teslaClonePic}
+            projectUrl="/teslaClone"
           />
-
+          <ProjectItem
+            title="D2D todoList"
+            backgroundImg={d2dTodoListPic}
+            projectUrl="/d2dTodoList"
+          />
         </div>
       </div>
     </div>

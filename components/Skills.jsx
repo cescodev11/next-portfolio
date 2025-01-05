@@ -5,9 +5,7 @@ const Skills = () => {
   return (
     <div id="skills" className="w-full lg:h-screen p-2 bg-slate-600">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase">
-          Skills
-        </p>
+        <p className="text-xl tracking-widest uppercase">Skills</p>
         <h2 className="py-4">What I can do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
@@ -125,13 +123,24 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Icon
-                  icon="vscode-icons:file-type-css"
+                  icon="vscode-icons:file-type-scss2"
                   width="64px"
                   height="64px"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+                <h3>SCSS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Icon icon="logos:mysql" width="64px" height="64px" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MySQL</h3>
               </div>
             </div>
           </div>
@@ -154,10 +163,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-              <Icon icon="logos:postgresql"
-               width="64px"
-               height="64px"
-                />
+                <Icon icon="logos:postgresql" width="64px" height="64px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Postgres SQL</h3>

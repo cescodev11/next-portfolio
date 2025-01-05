@@ -1,5 +1,3 @@
-
-
 import Image from "next/image";
 import React from "react";
 import homeWizardPic from "../public/assets/Projects/homeWizardPic.jpeg";
@@ -19,7 +17,7 @@ const wizardProd = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Property Finders</h2>
+          <h2 className="py-2">Wizard Creator</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -29,14 +27,16 @@ const wizardProd = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using JavaScript and hosted on Firebase. Users
-            can log in using Firebase and take a quiz that consists of 10
-            questions and the algorithm assess the answers to then place the
-            user in their designated house. After the quiz, the user can create
-            a 3D wand using a couple of designs I created using Three.js. There
-            are 3 cores and 3 kinds of wood to choose from to create the wand.
-            Finally, you are certificated with the house you were put in and the
-            3D wand you created. This entire process is saved on firebases data.
+            This app, built with JavaScript and hosted on Firebase, offers an
+            enchanting experience for users. With Firebase authentication, users
+            can log in and take a 10-question quiz, which uses a custom
+            algorithm to sort them into their designated house. After the quiz,
+            users can unleash their creativity by crafting a 3D wand using
+            Three.js, selecting from 3 unique cores and 3 types of wood. At the
+            end of the journey, users receive a personalized certificate
+            showcasing their assigned house and custom wand. All progress and
+            creations are seamlessly saved in Firebase's database for future
+            reference.
           </p>
           <a
             href="https://github.com/Carlosescobar2/Capstone-1"
