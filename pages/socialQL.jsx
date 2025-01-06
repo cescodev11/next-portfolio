@@ -1,11 +1,10 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import React from "react";
-import homeWizardPic from "../public/assets/Projects/homeWizardPic.jpeg";
+import socialQLpic from "../public/assets/Projects/socialQLpic.jpeg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const wizardProd = () => {
+const teslaClone = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -14,12 +13,12 @@ const wizardProd = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={homeWizardPic}
+          src={socialQLpic}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Wizard Creator</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">SocialQL</h2>
+          <h3>React & SQL</h3>
         </div>
       </div>
 
@@ -28,30 +27,19 @@ const wizardProd = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app, built with JavaScript and hosted on Firebase, offers an
-            enchanting experience for users. With Firebase authentication, users
-            can log in and take a 10-question quiz, which uses a custom
-            algorithm to sort them into their designated house. After the quiz,
-            users can unleash their creativity by crafting a 3D wand using
-            Three.js, selecting from 3 unique cores and 3 types of wood. At the
-            end of the journey, users receive a personalized certificate
-            showcasing their assigned house and custom wand. All progress and
-            creations are seamlessly saved in Firebase's database for future
-            reference.
+            A dynamic user-friendly interface using React. This includes pages
+            for creating and viewing posts, as well as adding and deleting
+            comments. The backend uses node/express.js that interacts with an
+            SQL database. Post and comments are stored in the sql database, the
+            back-end api allows users to retrieve posts, add comments, and
+            delete posts or comments.
           </p>
           <a
-            href="https://github.com/Carlosescobar2/Capstone-1"
+            href="https://github.com/cescodev11/ReactSql-fullStack"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8 bg-blue-600">Code</button>
-          </a>
-          <a
-            href="http://one-sip-b05ef.web.app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <button className="px-8 py-2 mt-4 bg-blue-600">Website</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -62,13 +50,22 @@ const wizardProd = () => {
                 <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Three.js
+                <RiRadioButtonFill className="pr-1" /> Axios
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Express
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> SQL
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Formik
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> JWT
               </p>
             </div>
           </div>
@@ -81,4 +78,4 @@ const wizardProd = () => {
   );
 };
 
-export default wizardProd;
+export default teslaClone;

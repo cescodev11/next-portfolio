@@ -25,18 +25,34 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[300px] m-auto py-4">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
+              <a
+                href="https://www.linkedin.com/in/carlos-escobar11/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
+              <a
+                href="https://github.com/cescodev11"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub />
+              </a>
             </div>
 
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
+              <a href="/#contact" target="_blank" rel="noreferrer">
+                <AiOutlineMail />
+              </a>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
+              <a href="/" target="_blank" rel="noreferrer">
+                <BsFillPersonLinesFill />
+              </a>
             </div>
           </div>
         </div>

@@ -148,40 +148,26 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-between py-4">
                 <a
-                  href="https://www.linkedin.com/in/carlos-escobar-68490721a/"
+                  href="https://github.com/cescodev11"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/Carlosescobar2"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaGithub />
                   </div>
                 </a>
-                <Link href="/#contact">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <AiOutlineMail />
-                  </div>
-                </Link>
+
+                <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <AiOutlineMail />
+                </div>
                 <Link href="/resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
-                  >
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a>
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </Link>
               </div>
             </div>
